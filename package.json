@@ -8,18 +8,15 @@
     },
     "repository": "stbsdk/gulp",
     "scripts": {
-        "lint": "eslint *.js"
+        "lint": "eslint *.js",
+        "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
-    "dependencies": {},
-    "devDependencies": {},
     "keywords": [
         "stb",
-        "sdk",
-        "device",
-        "tv",
-        "devkit",
+        "stbsdk",
         "framework",
         "gulp",
+        "develop",
         "tasks"
     ],
     "license": "GPL-3.0"
