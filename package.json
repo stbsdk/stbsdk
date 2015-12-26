@@ -1,0 +1,26 @@
+{
+	"name": "stb-gulp",
+	"version": "1.0.0",
+	"description": "Development gulp tasks.",
+	"author": {
+		"name": "Stanislav Kalashnik",
+		"email": "sk@infomir.eu"
+	},
+	"repository": "stbsdk/gulp",
+	"scripts": {
+		"lint": "eslint *.js"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"keywords": [
+		"stb",
+		"sdk",
+		"device",
+		"tv",
+		"devkit",
+		"framework",
+		"gulp",
+		"tasks"
+	],
+	"license": "GPL-3.0"
+}
