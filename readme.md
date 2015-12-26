@@ -3,7 +3,7 @@ Development gulp tasks
 
 [![NPM version](https://img.shields.io/npm/v/stb-gulp.svg?style=flat-square)](https://www.npmjs.com/package/stb-gulp)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/gulp.svg?style=flat-square)](https://david-dm.org/stbsdk/gulp)
-[![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
+[![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
 
 
 ## Installation ##
