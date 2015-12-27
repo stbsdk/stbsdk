@@ -10,7 +10,7 @@
 var path   = require('path'),
     gulp   = require('gulp'),
     log    = require('gulp-util').log,
-    config = require(path.join(global.paths.config, 'weinre')),
+    config = require(path.join(process.env.PATH_CFG, 'weinre')),
     ip     = require('ip').address(),
     title  = 'weinre  '.inverse;
 
@@ -27,7 +27,7 @@ gulp.task('weinre', function ( done ) {
         spawn = require('child_process').spawn;
 
         //TODO: make it work on Windows
-        weinre = spawn(path.join(global.paths.root, 'node_modules', '.bin', 'weinre'), [
+        weinre = spawn(path.join(process.env.PATH_ROOT, 'node_modules', '.bin', 'weinre'), [
             '--httpPort',  config.port,
             '--boundHost', config.host,
             '--verbose',   config.logging.toString(),

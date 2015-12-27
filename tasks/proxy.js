@@ -10,7 +10,7 @@
 var path   = require('path'),
     gulp   = require('gulp'),
     log    = require('gulp-util').log,
-    config = require(path.join(global.paths.config, 'proxy')),
+    config = require(path.join(process.env.PATH_CFG, 'proxy')),
     title  = 'proxy   '.inverse;
 
 
