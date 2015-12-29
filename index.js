@@ -10,9 +10,12 @@ var gulp = require('spa-gulp');
 
 
 // additional tasks
+require('./tasks/less');
 require('./tasks/open');
 require('./tasks/proxy');
+require('./tasks/ssh');
 require('./tasks/watch');
+require('./tasks/weinre');
 
 
 // start all services
