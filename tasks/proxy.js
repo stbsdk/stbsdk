@@ -19,13 +19,13 @@ var path  = require('path'),
 gulp.task('proxy', function ( done ) {
     var config = load(cfg);
 
-    if ( config.active ) {
-        // start
-        require('code-proxy')(config);
-    } else {
+    if ( !config.active ) {
         // just exit
         log(title, 'task is disabled'.grey);
 
         done();
     }
+
+    // start
+    require('code-proxy')(config);
 });
