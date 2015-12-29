@@ -11,6 +11,7 @@ var gulp = require('spa-gulp');
 
 // additional tasks
 require('./tasks/proxy');
+require('./tasks/watch');
 
 
 // public
