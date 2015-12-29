@@ -11,7 +11,7 @@ var path  = require('path'),
     gulp  = require('gulp'),
     log   = require('gulp-util').log,
     load  = require('require-nocache')(module),
-    cfg   = path.join(process.env.PATH_CFG, 'proxy'),
+    cfg   = path.join(process.env.PATH_ROOT, process.env.PATH_CFG, 'proxy'),
     title = 'proxy   '.inverse;
 
 

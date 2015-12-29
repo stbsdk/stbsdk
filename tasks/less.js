@@ -25,8 +25,8 @@ var path       = require('path'),
  * @return {Object} var list
  */
 function prepare ( resolution ) {
-    var mName   = path.join(process.env.PATH_CFG, 'metrics.js'),
-        vName   = path.join(process.env.PATH_SRC, 'less', 'vars', resolution + '.js'),
+    var mName   = path.join(process.env.PATH_ROOT, process.env.PATH_CFG, 'metrics.js'),
+        vName   = path.join(process.env.PATH_ROOT, process.env.PATH_SRC, 'less', 'vars', resolution + '.js'),
         metrics = require(mName)[resolution],
         stbVars = require(vName),
         data    = {};
