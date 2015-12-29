@@ -7,15 +7,18 @@
 
 'use strict';
 
-var path   = require('path'),
-    gulp   = require('gulp'),
-    log    = require('gulp-util').log,
-    config = require(path.join(process.env.PATH_CFG, 'proxy')),
-    title  = 'proxy   '.inverse;
+var path  = require('path'),
+    gulp  = require('gulp'),
+    log   = require('gulp-util').log,
+    load  = require('require-nocache')(module),
+    cfg   = path.join(process.env.PATH_CFG, 'proxy'),
+    title = 'proxy   '.inverse;
 
 
 // start call redirection
 gulp.task('proxy', function ( done ) {
+    var config = load(cfg);
+
     if ( config.active ) {
         // start
         require('code-proxy')(config);

@@ -10,8 +10,13 @@ var gulp = require('spa-gulp');
 
 
 // additional tasks
+require('./tasks/open');
 require('./tasks/proxy');
 require('./tasks/watch');
+
+
+// start all services
+gulp.task('serve', ['static', 'weinre', 'proxy', 'watch', 'repl']);
 
 
 // public
