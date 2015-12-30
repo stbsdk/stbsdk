@@ -9,6 +9,9 @@
 var gulp = require('spa-gulp');
 
 
+global.env.TARGET = 'stb';
+
+
 // additional tasks
 require('./tasks/less');
 require('./tasks/open');
