@@ -9,7 +9,7 @@
 var gulp = require('spa-gulp');
 
 
-global.env.TARGET = 'stb';
+process.env.TARGET = 'stb';
 
 
 // additional tasks
