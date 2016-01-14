@@ -12,18 +12,14 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spa-gulp": "1.*.*",
-        "code-proxy": "1.*.*",
-        "ssh2": "0.*.*",
-        "weinre": "2.0.0-pre-I0Z7U9OV"
+        "spa-gulp": "1.*.*"
     },
     "keywords": [
         "stb",
         "stbsdk",
         "framework",
         "gulp",
-        "develop",
-        "tasks"
+        "common"
     ],
     "license": "GPL-3.0"
 }
