@@ -10,6 +10,10 @@ var path   = require('path'),
     tasks  = require('spa-gulp/lib/tasks');
 
 
+// enable colors in console
+require('tty-colors');
+
+
 // merge configs
 // spa root + stb root + user
 extend(true,
