@@ -1,25 +1,26 @@
 {
-    "name": "stb-gulp",
+    "name": "stbsdk",
     "version": "1.0.0",
-    "description": "Development gulp tasks.",
+    "description": "STB development environment and tools.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "stbsdk/gulp",
+    "repository": "stbsdk/stbsdk",
     "scripts": {
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spa-gulp": "spasdk/gulp"
+        "spasdk": "spasdk/spasdk",
+
+        "stb-gulp-sass": "stbsdk/gulp-sass",
+        "stb-gulp-webpack": "stbsdk/gulp-webpack"
     },
     "keywords": [
         "stb",
         "stbsdk",
-        "framework",
-        "gulp",
-        "common"
+        "framework"
     ],
     "license": "GPL-3.0"
 }
