@@ -15,7 +15,7 @@
         "spasdk": "spasdk/spasdk",
 
         "stb-gulp-sass": "stbsdk/gulp-sass",
-        "stb-gulp-webpack": "stbsdk/gulp-webpack"
+        "stb-plugin-webpack": "stbsdk/plugin-webpack"
     },
     "keywords": [
         "stb",
