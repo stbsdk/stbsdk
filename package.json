@@ -15,7 +15,8 @@
         "spasdk": "spasdk/spasdk",
 
         "stb-plugin-sass": "stbsdk/plugin-sass",
-        "stb-plugin-webpack": "stbsdk/plugin-webpack"
+        "stb-plugin-webpack": "stbsdk/plugin-webpack",
+        "stb-plugin-weinre": "stbsdk/plugin-weinre"
     },
     "keywords": [
         "stb",
