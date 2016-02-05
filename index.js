@@ -7,7 +7,7 @@
 
 var path   = require('path'),
     extend = require('extend'),
-    tasks  = require('spa-gulp/lib/tasks');
+    tasks  = require('spasdk/lib/tasks');
 
 
 // enable colors in console
@@ -17,7 +17,7 @@ require('tty-colors');
 // merge configs
 // spa root + stb root + user
 extend(true,
-    require('spa-gulp/config').default,
+    require('spasdk/config').default,
     require('./config').default,
     require(path.join(process.cwd(), 'gulpfile.js')).default
 );
