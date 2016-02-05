@@ -14,7 +14,7 @@
     "dependencies": {
         "spasdk": "spasdk/spasdk",
 
-        "stb-gulp-sass": "stbsdk/gulp-sass",
+        "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-webpack": "stbsdk/plugin-webpack"
     },
     "keywords": [
