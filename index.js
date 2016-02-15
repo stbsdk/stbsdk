@@ -5,7 +5,54 @@
 
 'use strict';
 
-var path   = require('path'),
+global.DEBUG = true;
+
+var app    = require('spasdk/lib/app'),
+    runner = app.runner;
+
+
+// enable colors in console
+//require('tty-colors');
+
+// public
+module.exports = app;
+
+app.init({
+    //tasks: process.argv.slice(2),
+    //plugins: Object.keys(require('./package.json').optionalDependencies)
+    plugins: [
+        'spa-plugin-jade',
+        'spa-plugin-livereload',
+        'spa-plugin-static',
+        'spa-plugin-wamp',
+        'spa-plugin-webui',
+        'stb-plugin-sass',
+        'stb-plugin-webpack'
+    ]
+});
+
+//console.log(runner.tasks);
+
+
+runner.task('default',
+    runner.serial(
+        'jade:build',
+        'webpack:build',
+        'sass:cache',
+        'sass:build',
+        runner.parallel(
+            'jade:watch:develop',
+            'sass:watch:develop',
+            'webpack:watch:develop',
+            'static:serve:default',
+            'wamp:serve:default',
+            'webui:serve:default',
+            'livereload:watch:default'
+        )
+    )
+);
+
+/*var path   = require('path'),
     extend = require('extend'),
     tasks  = require('spasdk/lib/tasks');
 
@@ -27,7 +74,7 @@ tasks.register(extend(
     true, {},
     tasks.load('spa-gulp-'),
     tasks.load('stb-gulp-')
-));
+));*/
 
 
 // use all default SPA tasks

@@ -12,8 +12,19 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spasdk": "spasdk/spasdk",
-
+        "spasdk": "spasdk/spasdk"
+    },
+    "optionalDependencies": {
+        "spa-plugin-eslint": "spasdk/plugin-eslint",
+        "spa-plugin-gettext": "spasdk/plugin-gettext",
+        "spa-plugin-jade": "spasdk/plugin-jade",
+        "spa-plugin-livereload": "spasdk/plugin-livereload",
+        "spa-plugin-static": "spasdk/plugin-static",
+        "spa-plugin-sass": "spasdk/plugin-sass",
+        "spa-plugin-wamp": "spasdk/plugin-wamp",
+        "spa-plugin-webpack": "spasdk/plugin-webpack",
+        "spa-plugin-webui": "spasdk/plugin-webui",
+        "spa-plugin-zip": "spasdk/plugin-zip",
         "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
         "stb-plugin-weinre": "stbsdk/plugin-weinre"
