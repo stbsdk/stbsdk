@@ -26,6 +26,7 @@
         "spa-plugin-webpack": "spasdk/plugin-webpack",
         "spa-plugin-webui": "spasdk/plugin-webui",
         "spa-plugin-zip": "spasdk/plugin-zip",
+        "stb-plugin-proxy": "stbsdk/plugin-proxy",
         "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
         "stb-plugin-weinre": "stbsdk/plugin-weinre"
