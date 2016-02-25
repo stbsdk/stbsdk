@@ -26,7 +26,7 @@ app.init({
         'spa-plugin-static',
         'spa-plugin-wamp',
         'spa-plugin-webui',
-        'stb-plugin-sass',
+        //'stb-plugin-sass',
         'stb-plugin-webpack'
     ]
 });
@@ -38,13 +38,14 @@ runner.task('default',
     runner.serial(
         'jade:build',
         'webpack:build',
-        'sass:cache',
-        'sass:build',
+        //'sass:cache',
+        //'sass:build',
         runner.parallel(
             'jade:watch:develop',
-            'sass:watch:develop',
+            'sass:watch:cache:develop',
+            'sass:watch:scss:develop',
             'webpack:watch:develop',
-            'static:serve:default',
+            'static:serve:develop',
             'wamp:serve:default',
             'webui:serve:default',
             'livereload:watch:default'
