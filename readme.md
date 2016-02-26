@@ -1,5 +1,5 @@
-Development gulp tasks
-======================
+Development tasks
+=================
 
 [![NPM version](https://img.shields.io/npm/v/stb-gulp.svg?style=flat-square)](https://www.npmjs.com/package/stb-gulp)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/gulp.svg?style=flat-square)](https://david-dm.org/stbsdk/gulp)

@@ -26,12 +26,12 @@ app.init({
         'spa-plugin-static',
         'spa-plugin-wamp',
         'spa-plugin-webui',
-        //'stb-plugin-sass',
+        'stb-plugin-sass',
         'stb-plugin-webpack'
     ]
 });
 
-//console.log(runner.tasks);
+console.log(runner.tasks);
 
 
 runner.task('default',
