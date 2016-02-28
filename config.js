@@ -9,4 +9,4 @@
 
 // root STB config
 // to be extended in other plugins
-module.exports = require('spasdk/config');
+module.exports = require('spa-plugin/config');
