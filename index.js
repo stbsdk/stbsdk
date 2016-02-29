@@ -10,7 +10,6 @@ global.DEBUG = true;
 var app    = require('spasdk/lib/app'),
     runner = app.runner;
 
-console.log(process.env);
 
 app.init({
     //tasks: process.argv.slice(2),
