@@ -20,19 +20,22 @@ app.init({
         'spa-plugin-static',
         'spa-plugin-wamp',
         'spa-plugin-webui',
+        'stb-plugin-css',
         'stb-plugin-sass',
         'stb-plugin-webpack'
     ]
 });
 
 
-runner.task('build', runner.serial('jade:build', 'webpack:build', 'sass:cache', 'sass:build'));
+runner.task('build', runner.serial('jade:build', 'webpack:build', /*'sass:cache',*/ 'sass:build', 'css:build'));
 
 runner.task('watch', runner.parallel(
     'jade:watch:develop',
     'webpack:watch:develop',
-    'sass:cache:watch:develop',
-    'sass:build:watch:develop'
+    'sass:watch:develop:720',
+    'css:watch:develop:720'
+    /*'sass:cache:watch:develop',
+    'sass:build:watch:develop'*/
 ));
 
 runner.task('serve', runner.parallel(
