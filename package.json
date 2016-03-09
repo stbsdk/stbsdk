@@ -15,6 +15,9 @@
     "dependencies": {
         "spasdk": "spasdk/spasdk"
     },
+    "devDependencies": {
+        "stb-eslint-config": "stbsdk/eslint-config"
+    },
     "optionalDependencies": {
         "spa-plugin-eslint": "spasdk/plugin-eslint",
         "spa-plugin-gettext": "spasdk/plugin-gettext",
