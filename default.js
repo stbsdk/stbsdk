@@ -17,7 +17,6 @@ app.init({
         'spa-plugin-livereload',
         'spa-plugin-static',
         'spa-plugin-wamp',
-        'spa-plugin-webui',
         'stb-plugin-css',
         'stb-plugin-sass',
         'stb-plugin-webpack'
