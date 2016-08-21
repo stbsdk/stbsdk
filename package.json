@@ -30,7 +30,6 @@
         "spa-plugin-sass": "spasdk/plugin-sass",
         "spa-plugin-wamp": "spasdk/plugin-wamp",
         "spa-plugin-webpack": "spasdk/plugin-webpack",
-        "spa-plugin-webui": "spasdk/plugin-webui",
         "spa-plugin-zip": "spasdk/plugin-zip",
         "stb-plugin-css": "stbsdk/plugin-css",
         "stb-plugin-proxy": "stbsdk/plugin-proxy",
