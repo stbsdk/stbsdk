@@ -36,9 +36,9 @@ runner.task('watch', runner.parallel(
 ));
 
 runner.task('serve', runner.parallel(
-    'static:serve:develop',
     'wamp:serve:default',
-    'webui:serve:default',
+    'static:serve:default',
+    'static:serve:webui',
     'livereload:watch:default'
 ));
 
