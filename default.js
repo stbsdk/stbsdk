@@ -19,6 +19,7 @@ app.init({
         'spa-plugin-wamp',
         'stb-plugin-css',
         'stb-plugin-sass',
+        'stb-plugin-ssh',
         'stb-plugin-webpack'
     ]
 });

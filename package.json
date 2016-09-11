@@ -34,6 +34,7 @@
         "stb-plugin-css": "stbsdk/plugin-css",
         "stb-plugin-proxy": "stbsdk/plugin-proxy",
         "stb-plugin-sass": "stbsdk/plugin-sass",
+        "stb-plugin-ssh": "stbsdk/plugin-ssh",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
         "stb-plugin-weinre": "stbsdk/plugin-weinre"
     },
