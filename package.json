@@ -12,13 +12,15 @@
     },
     "bin": "./bin/cli.js",
     "scripts": {
-        "lint": "eslint *.js",
+        "lint": "eslint .",
+        "test": "npm run lint",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
         "spasdk": "spasdk/spasdk"
     },
     "devDependencies": {
+        "eslint": "2.*.*",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
     "optionalDependencies": {
