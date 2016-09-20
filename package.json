@@ -20,7 +20,7 @@
         "spasdk": "spasdk/spasdk"
     },
     "devDependencies": {
-        "eslint": "2.*.*",
+        "eslint": "3.*.*",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
     "optionalDependencies": {
