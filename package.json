@@ -24,7 +24,7 @@
         "stb-eslint-config": "1.*.*"
     },
     "optionalDependencies": {
-        "spa-plugin-eslint": "spasdk/plugin-eslint",
+        "spa-plugin-eslint": "0.0.*",
         "spa-plugin-gettext": "spasdk/plugin-gettext",
         "spa-plugin-jade": "spasdk/plugin-jade",
         "spa-plugin-livereload": "spasdk/plugin-livereload",
