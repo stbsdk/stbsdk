@@ -30,7 +30,7 @@
         "spa-plugin-livereload": "1.*.*",
         "spa-plugin-static": "1.*.*",
         "spa-plugin-sass": "1.*.*",
-        "spa-plugin-wamp": "spasdk/plugin-wamp",
+        "spa-plugin-wamp": "1.*.*",
         "spa-plugin-webpack": "spasdk/plugin-webpack",
         "spa-plugin-zip": "spasdk/plugin-zip",
         "stb-plugin-css": "stbsdk/plugin-css",
