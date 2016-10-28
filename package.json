@@ -17,7 +17,7 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "spasdk": "spasdk/spasdk"
+        "spasdk": "1.*.*"
     },
     "devDependencies": {
         "eslint": "3.*.*",
