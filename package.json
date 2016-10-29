@@ -38,7 +38,7 @@
         "stb-plugin-sass": "1.*.*",
         "stb-plugin-ssh": "1.*.*",
         "stb-plugin-webpack": "1.*.*",
-        "stb-plugin-weinre": "stbsdk/plugin-weinre"
+        "stb-plugin-weinre": "0.0.*"
     },
     "keywords": [
         "stb",
