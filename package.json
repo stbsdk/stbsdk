@@ -33,7 +33,7 @@
         "spa-plugin-wamp": "1.*.*",
         "spa-plugin-webpack": "1.*.*",
         "spa-plugin-zip": "0.0.*",
-        "stb-plugin-css": "stbsdk/plugin-css",
+        "stb-plugin-css": "1.*.*",
         "stb-plugin-proxy": "stbsdk/plugin-proxy",
         "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-ssh": "stbsdk/plugin-ssh",
