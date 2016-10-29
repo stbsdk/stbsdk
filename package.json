@@ -34,7 +34,7 @@
         "spa-plugin-webpack": "1.*.*",
         "spa-plugin-zip": "0.0.*",
         "stb-plugin-css": "1.*.*",
-        "stb-plugin-proxy": "stbsdk/plugin-proxy",
+        "stb-plugin-proxy": "0.0.*",
         "stb-plugin-sass": "stbsdk/plugin-sass",
         "stb-plugin-ssh": "stbsdk/plugin-ssh",
         "stb-plugin-webpack": "stbsdk/plugin-webpack",
